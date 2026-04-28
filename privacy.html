@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy - R.K. Loudwire's YouTube Auto Liker</title>
+  <style>
+    /* Body */
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      padding: 30px;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* Container for all content */
+    .container {
+      background: #141414;
+      padding: 20px 25px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,0,0,0.3);
+      box-shadow: 0 0 20px rgba(255,0,0,0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Animated border around container */
+    .container::before {
+      content: "";
+      position: absolute;
+      inset: -2px;
+      border-radius: 18px;
+      background: conic-gradient(#ff0000, #ff4d4d, #ffffff, #ff0000);
+      animation: spin 4s linear infinite;
+      z-index: -2;
+    }
+    .container::after {
+      content: "";
+      position: absolute;
+      inset: 2px;
+      background: #141414;
+      border-radius: 14px;
+      z-index: -1;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Header: icon + app name */
+    .privacy-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 15px;
+      border-radius: 14px;
+      background: linear-gradient(90deg, #ff0000, #ff4d4d, #ffffff, #ff0000);
+      background-size: 300% 300%;
+      animation: gradientMove 6s linear infinite;
+      box-shadow: 0 0 15px rgba(255,0,0,0.6);
+      margin-bottom: 20px;
+    }
+
+    .header-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      border: 2px solid rgba(255,0,0,0.6);
+      box-shadow: 0 0 8px rgba(255,0,0,0.5);
+    }
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      color: #fff;
+      font-size: 22px;
+      text-shadow: 0 0 12px rgba(255,0,0,0.9);
+    }
+
+    .header-text .subtitle {
+      font-size: 14px;
+      color: #fff;
+      text-shadow: 0 0 6px rgba(255,0,0,0.6);
+      margin-top: 2px;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Section headers */
+    h2 {
+      color: #ff4d4d;
+      margin-top: 20px;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .highlight {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    /* Support section */
+    .support {
+      margin-top: 20px;
+      padding: 12px;
+      border-radius: 10px;
+      background: rgba(255,0,0,0.1);
+      border: 1px solid rgba(255,0,0,0.3);
+      text-align: center;
+    }
+
+    .support a {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 8px 14px;
+      background: linear-gradient(145deg, #ff0000, #cc0000);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: all 0.2s ease;
+      box-shadow: 0 0 10px rgba(255,0,0,0.6);
+    }
+
+    .support a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 18px rgba(255,0,0,1);
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #777;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header with icon -->
+    <div class="privacy-header">
+      <img src="icon128.png" alt="Grand Pappy Cappy" class="header-icon">
+      <div class="header-text">
+        <h1>R.K. Loudwire's</h1>
+        <div class="subtitle">Privacy Policy</div>
+      </div>
+    </div>
+
+    <!-- Main Privacy Content -->
+    <p><span class="highlight">R.K. Loudwire's YouTube Auto Liker</span> does not collect, store, or share any personal data.</p>
+
+    <h2>What This Extension Does</h2>
+    <p>This extension operates entirely within your browser and only interacts with YouTube pages to automatically like videos you are already watching when the video reaches the 50% playtime mark.</p>
+
+    <h2>Data Collection</h2>
+    <p>No personal data is collected.<br>No browsing data is stored.<br>No information is sent to external servers.<br>No Logins Are Detected Or Stored.<br>We do not read cookies that we did not create for the future "Total Videos Liked" feature.</p>
+
+    <h2>Third Parties</h2>
+    <p>This extension does not communicate with any external services or third parties. At All. Ever.</p>
+
+    <!-- Support -->
+    <div class="support">
+      Need help or have questions?<br>
+      <a href="mailto:loudwirets@gmail.com?subject=Auto%20Liker%20Support">Contact Support</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      Created March 2026 • Simple. Private. Automatic.
+    </div>
+  </div>
+</body>
+</html>
