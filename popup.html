@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mission Key Collector</title>
+    <link rel="stylesheet" href="popup.css">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            width: 280px; 
+            padding: 12px; 
+            background: #0b1c2d; 
+            color: #f0f0f0; 
+            text-align: center;
+        }
+        header {
+        width: 60%;
+        align-content: center;
+        }
+        h2 { 
+            font-size: 18px; 
+            margin: 8px 0 12px; 
+            color: #00bfff;
+        }
+        #status { 
+            margin: 12px 0; 
+            padding: 10px; 
+            background: #1c2b3f; 
+            border-radius: 8px; 
+            font-weight: bold;
+        }
+        button { 
+            padding: 10px; 
+            width: 100%; 
+            border: none; 
+            border-radius: 8px; 
+            background-color: #0078d7; 
+            color: white; 
+            font-weight: bold; 
+            cursor: pointer; 
+            font-size: 16px;
+        }
+        button:hover { 
+            background-color: #005ea2; 
+        }
+        .credit {
+            margin-top: 20px;
+            font-size: 11px;
+            color: #aaa;
+            line-height: 1.4;
+        }
+        .credit a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+        .credit a:hover {
+            text-decoration: underline;
+        }
+        .emoji {
+            font-size: 14px;
+        }
+        .credit {
+    margin-top: 20px;
+    font-size: 11px;
+    color: #aaa;
+    line-height: 1.4;
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+    </style>
+</head>
+<body>
+    <div class=""header"><img src="icons/icon.png" style="width: 100%; height: auto;"></div>
+    <h2>Mission Key Collector v1.0</h2>
+    <div id="status">Loading status...</div>
+    <button id="manualClaim">Claim Now</button>
+
+    <!-- Your snazzy credit display -->
+    <div class="credit">
+        Made By: <strong>[BURN]CappySweet</strong> • Jan 2026<br>
+        Buy Me A Cup Of Coffee If You Liked This And Use It!!!!<br>
+        <a href="https://cash.app/$rkloudwire" target="_blank">CashApp: $rkloudwire</a> 
+        <span class="emoji">☕🖖</span>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
