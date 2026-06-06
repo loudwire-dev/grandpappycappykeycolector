@@ -80,4 +80,4 @@ Made with ❤️ by R.K. Loudwire
 If this saves you time every day, or helps you from forgetting to make you key claim, feel free to send a coffee:
 CashApp: $rkloudwire
 I will 100% appreciate the tip! ❤️
-Questions or feedback? Reach out on X: @deweywitt73
+Questions or feedback? Reach out: loudwirets@gmail.com
